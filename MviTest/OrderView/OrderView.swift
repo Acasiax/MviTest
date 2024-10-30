@@ -41,6 +41,7 @@ struct OrderView: View {
                     model.updateNavigation(false)
                     //개인적이니 생각이지만 model에 직접적으로 접근을 해서 값을 변경시키면 안된다고 생각합니다
                     //그래서 Binding을 하지 않고 완전히 단방향으로 가야하나 고민중이기도 하고요
+                    
                 }
             }
             .navigationDestination(for: String.self) { destination in
